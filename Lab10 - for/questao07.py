@@ -5,14 +5,14 @@ empates = 0
 derrotas = 0
 pontos = 0
 
-for i in range(jogos):
-    gols_galo = int(input("Gols do Galo: "))
+for var in range(jogos):
+    gols_cabuloso = int(input("Gols do Cruzeiro: "))
     gols_oponente = int(input("Gols do adversário: "))
 
-    if gols_galo > gols_oponente:
+    if gols_cabuloso > gols_oponente:
         vitorias += 1
         pontos += 3
-    elif gols_galo == gols_oponente:
+    elif gols_cabuloso == gols_oponente:
         empates += 1
         pontos += 1
     else:

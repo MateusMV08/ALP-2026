@@ -1,2 +1,3 @@
-for i in range(5):
-    print(i)
+for var in range(5):
+    print(var)
+    

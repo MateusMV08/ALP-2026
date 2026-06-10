@@ -1,2 +1,2 @@
-for i in range(10, 0, -1):
-    print(i)
+for var in range(10, 0, -1):
+    print(var)
